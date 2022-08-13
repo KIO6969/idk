@@ -49,7 +49,7 @@ Page.Button({
     [1] = 6.042379379272461,
     [2] = 77.70942687988281,
     [3] = 1343.1385498046875
-}
+})
 
 game:GetService("Players").LocalPlayer.Character:FindFirstChild("Fire Spirit").RemoteEvent:FireServer(unpack(args))
 game:GetService("Players").LocalPlayer.Character:FindFirstChild("Fire Spirit").RemoteEvent:FireServer(unpack(args))
