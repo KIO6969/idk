@@ -31,7 +31,7 @@ Page.Button({
     Callback = function()
  local args = {
     [1] = Vector3.new(-26.74223518371582, 77.70942687988281, 1340.5345458984375)
-}
+})
 
 game:GetService("Players").LocalPlayer.Character:FindFirstChild("StarShield").RemoteEvent:FireServer(unpack(args))
 
